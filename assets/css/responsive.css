@@ -38,6 +38,7 @@
     .mobile-category {
         display: block;
     }
+    
 
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
@@ -52,6 +53,9 @@
     .header__cart {
         width: auto;
         text-align: right;
+    }
+    .header__sort-link.header__sort-link--active::after {
+        bottom: -1px;
     }
 }
 
